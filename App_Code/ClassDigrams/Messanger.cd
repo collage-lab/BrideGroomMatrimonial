@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="InternalMessage">
+    <Position X="0.5" Y="0.75" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Messaging\InternalMessage.cs</FileName>
+      <HashCode>AAAAAAAAACIAAAAAACAAAAAAAKAQABAABABAAAAAgAA=</HashCode>
+    </TypeIdentifier>
+    <Members>
+      <Method Name="InternalMessage" Hidden="true" />
+    </Members>
+    <NestedTypes>
+      <Enum Name="InternalMessage.IntrestType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Messaging\InternalMessage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="InternalMessage.IntrestStatus" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Messaging\InternalMessage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="InternalMessage.MailType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Messaging\InternalMessage.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MemberIntrest">
+    <Position X="5.5" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>App_Code\Messaging\MemberIntrest.cs</FileName>
+      <HashCode>AAAAAAQAIADAAAAIAAAAAAAAIEAAAAIBAAMAABQAAEA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MemberIntrest.TypeOfIntrest" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Messaging\MemberIntrest.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="PhotoHoroPassword" Collapsed="true">
+    <Position X="6.75" Y="3" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Messaging\PhotoHoroPassword.cs</FileName>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAABAAAAACAAAAAAQAQAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MemberMessage">
+    <Position X="7.75" Y="1" Width="2" />
+    <TypeIdentifier>
+      <FileName>App_Code\Messaging\MemberMessage.cs</FileName>
+      <HashCode>AEAAAAAAIACAAAAAAAAAAAAAAAAABAABAAMAICAAhAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+  </Class>
+  <Class Name="MatrimonialMessanger">
+    <Position X="3.25" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialMessanger.cs</FileName>
+      <HashCode>EEBAAAAAAAIAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="MatrimonialMessanger.MailingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Matrimonial\MatrimonialMessanger.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MatrimonialAlbumManager" Collapsed="true">
+    <Position X="4" Y="3" Width="2" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialAlbumManager.cs</FileName>
+      <HashCode>AAAAAAQAQgAAAAAAAAAAAAIQAAAAAAAACAAgAAAAAKA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="MatrimonialAlbumManager.ImageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Matrimonial\MatrimonialAlbumManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="SearchEngine" Collapsed="true">
+    <Position X="7.25" Y="5" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Search\SearchEngine.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAEAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+    <NestedTypes>
+      <Enum Name="SearchEngine.SearchType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Search\SearchEngine.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MatrimonialCoustomerSupportManager">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialCoustomerSupportManager.cs</FileName>
+      <HashCode>AAAAAgAAAAAQAAAAAAAAAAAAAAAAACAAAAAAAAAgAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

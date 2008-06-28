@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Comment CommentText="Matrimonial Data Access Diagram">
+    <Position X="3.906" Y="0.917" Height="0.375" Width="2.044" />
+  </Comment>
+  <Class Name="ControlDataLoader">
+    <Position X="5.5" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>App_Code\DataAcess\ControlDataLoader.cs</FileName>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAQAAAAAAQAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="ControlDataLoader.ControlType">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\DataAcess\ControlDataLoader.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="DBConnection">
+    <Position X="1.75" Y="2" Width="2.75" />
+    <TypeIdentifier>
+      <FileName>App_Code\DataAcess\DBConnection.cs</FileName>
+      <HashCode>AYAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

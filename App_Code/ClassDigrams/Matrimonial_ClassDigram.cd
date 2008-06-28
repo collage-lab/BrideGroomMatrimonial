@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Font Name="Tahoma" Size="8.25" />
+  <Class Name="MatrimonialAdministratorMembership">
+    <Position X="0.5" Y="6" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialAdministratorMembership.cs</FileName>
+      <HashCode>AAAAAAAAAABGAgAQAIgAAAAAAAoAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrimonialAlbumManager">
+    <Position X="4" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialAlbumManager.cs</FileName>
+      <HashCode>AAAAAAQAQgAAAAAAAAAAAAIQAAAAAAAACAAgAAAAAKA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MatrimonialAlbumManager.ImageType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Matrimonial\MatrimonialAlbumManager.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MatrimonialMemberShip">
+    <Position X="4" Y="4.25" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialMemberShip.cs</FileName>
+      <HashCode>AAoAAABABAAAKAAQAQCAACAAAAgAEAAAAAAAjQAQAUA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrimonialMessanger">
+    <Position X="0.5" Y="3" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialMessanger.cs</FileName>
+      <HashCode>EEBAAAAAAAIAAAAABAAAAAAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MatrimonialMessanger.MailingType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Matrimonial\MatrimonialMessanger.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MatrimonialProfileManager">
+    <Position X="7.5" Y="3.25" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialProfileManager.cs</FileName>
+      <HashCode>AAAgJAAABiIBAIBEBgAAAAIABIQAAAAAAQYAAUIgBEA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MatrimonialSales">
+    <Position X="7.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialSales.cs</FileName>
+      <HashCode>AAACACIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABA=</HashCode>
+    </TypeIdentifier>
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="MatrimonialSales.DetailsType" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>App_Code\Matrimonial\MatrimonialSales.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+  </Class>
+  <Class Name="MatrimonialSuccessStoryManager">
+    <Position X="0.5" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <FileName>App_Code\Matrimonial\MatrimonialSuccessStoryManager.cs</FileName>
+      <HashCode>BAAAIAAAAAAAAAEAAAAAAAAAIAAAAAQAAAkAAAIAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+</ClassDiagram>

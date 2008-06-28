@@ -1,0 +1,119 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin_Protected_Admin" %>
+
+<%@ Register Src="../../../WeBControls/AdminLeftPanel.ascx" TagName="AdminLeftPanel" TagPrefix="uc1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id ="Admin" runat="server">
+<title>Administrator  panel... </title>
+<link href="../../../Resources/adminstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+        <table id="Outer" border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tbody>
+      
+       <tr>
+          <td style="width: 1131px">
+            <table id="inner" border="0" cellpadding="0" cellspacing="0" width="100%">
+                 <tbody>
+                 <tr>
+                    <td colspan="2">
+                              <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody>
+                                        <tr>
+                                            <td bgcolor="#ffffff" width="50%" valign="bottom" style="text-align: left" >
+                                                     <img src="../../../Resources/logo.gif"></td>
+                                            <td bgcolor="#ffffff" width="50%" style="text-align: right" valign="bottom" >
+                                                
+                                                    <img src="../../../Resources/as.gif" height="54" width="264">
+                                               
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                    </table>
+                        <table border="0" cellpadding="0" cellspacing="0" width="100%" style="height: 20px">
+                            <tbody>
+                            
+                                <tr>
+                                    <td style="height: 18px; background-attachment: fixed; background-image: url(../../../Resources/bg.jpg); background-repeat: repeat;">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                        <tbody>
+                                        <tr>
+                                             <td style="height: 16px">
+                                                  <div id="menu">
+		                                            <ul>	
+			                                            <li><a  href="../AdminIndex.aspx" title="home">MY ADMIN </a></li>
+			                                            <li><a href="../ApproveMembers.aspx" title="Articles">APPROVALS</a></li>
+			                                            <li><a href="ContactSettings.aspx" title="Gallery">SET CONTACTS </a></li>
+			                                            <li><a href="../ApproveMembers.aspx" title="Affiliates">RENEWALS</a></li>
+			                                            <li><a href="../Reports.aspx" title="Articles">REPORTS</a></li>
+			                                            <li><a href="../NewsLetters.aspx" title="Abous us">NEWS LETTERS</a></li>
+			                                            <li><a href="../logout.aspx" title="Logout">LOGOUT</a></li>
+		                                            </ul>
+	                                            </div>
+                                        	</td>
+                                        </tr>
+                                        </tbody>
+                                        </table>
+                                        </td>
+                                        </tr>
+                                                                    </tbody>
+                        </table>
+                    </td>
+                  </tr>
+                  <tr>
+                     <td bgcolor="#f7f7f7" valign="top" style="width: 20%; border-right: dodgerblue 1px solid; height: 500px;">
+                         &nbsp;<br />
+                         <table border="0" cellpadding="0" cellspacing="4" width="195">
+                             <tbody>
+                                 <tr>
+                                     <td class="paratext" colspan="2" height="25">
+                                     </td>
+                                 </tr>
+                             </tbody>
+                         </table>
+                     </td>
+                     
+                     
+                     <td style="width: 80%" valign="top">
+      
+
+
+
+
+                      <form id="Administrator" runat="server">
+                            <div>
+                                <br />
+                                <br />
+                                <asp:contentplaceholder id="ContentPlaceHolder1" runat="server">
+                                </asp:contentplaceholder>
+                                <br />
+                            </div>
+                            </form>
+                     </td>
+                  </tr>
+      
+      
+                  <tr>
+                      <td colspan="2">
+        
+                            <table bgcolor="#e0e0e0" border="0" cellpadding="0" cellspacing="0" height="20" width="100%">
+                                <tbody>
+                                <tr>
+                                <td style="text-align: center">
+                                    <strong><span style="color: gray"><%  Response.Write(WebConfig.GetValues("WebFooter")); %></span></strong></td>
+                                </tr>
+                                </tbody>
+                            </table>
+                      </td>
+                                 
+                  </tr>
+         </tbody>
+      </table>
+     </td>
+   </tr>
+  </tbody>
+ </table>
+</body>
+</html>

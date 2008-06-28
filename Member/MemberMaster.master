@@ -1,0 +1,96 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MemberMaster.master.cs" Inherits="Member_MemberMaster" %>
+
+
+
+<%@ Register Src="../WeBControls/MemberLeftPanel.ascx" TagName="MemberLeftPanel"
+    TagPrefix="uc1" %>
+
+<%@ Register Src="../WeBControls/Footer_M.ascx" TagName="Footer_M" TagPrefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Resources/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body id="Body_Matrimonial" class="body" bgcolor="#cccccc" runat="server">
+        <div align="center">
+             <table class="BlueTborder" align="center" border="0" cellpadding="0" cellspacing="0" width="780">
+                      <tbody>               
+                            <tr>
+                                <td bgcolor="#ffffff" height="76" style="text-align: left">
+                                    <img border="0" src="../Resources/logo.gif" />
+                                </td>
+                            </tr>
+                
+                            <tr>
+                                <td colspan="2" style="height: 31px">		<!-- MEMBER LOGGED IN -->
+		                            <img src="../Resources/logintopmenu.jpg" usemap="#Map2" border="0" height="29" width="780">
+		                                <map name="Map2" id="Map2">
+		                                    <area shape="rect" coords="0,1,128,26"href="../Member/Profile.aspx"alt="My Matri">
+		                                    <area shape="rect" coords="134,1,262,26" href="../Member/memberSearchOption.aspx" alt="Partner Search Options">
+		                                    <area shape="rect" coords="287,2,427,27" href="../Member/Interests.aspx" alt="My Interest">
+		                                    <area shape="rect" coords="448,2,538,25" href="../Member/Messages.aspx" alt="My Message">
+		                                    <area shape="rect" coords="567,2,678,25" href="../Member/Membership.aspx" alt="My Membership">
+		                                    <area shape="rect" coords="696,4,763,24" href="../Member/logout.aspx" alt="Logout">
+		                                </map>
+                                 </td>
+                              </tr>
+                              <tr bgcolor="#ffffff">
+                                <td colspan="2" valign="top">
+                                 <%--START LEFT PART --%>
+                                    <div align="center">
+                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                    <tbody><tr>
+                                    <td bgcolor="#ffefed" height="303" valign="top" style="width: 180px">
+                                        &nbsp;<br />
+                                        <br />
+                                        <uc1:MemberLeftPanel ID="MemberLeftPanel1" runat="server" />
+                                        <br />
+                                        <br />
+                                        <br />
+
+                               
+                                    </td>
+                                    <td valign="top">
+                                        <br />
+                                        <br>
+                                    
+                                    
+                                      <%--Content Starts--%>
+                                    
+                                    
+                                        <form id="form1" runat="server">
+					                        <div>
+						                    <asp:contentplaceholder id="CPH_Member" runat="server">
+
+						                    </asp:contentplaceholder>
+					                        </div>
+					                        </form>
+                                    
+                                    
+                                       <%--Content Ends--%>
+                                      
+                                        <br />
+                                    </td>
+                                    </tr>
+                                    </tbody></table>
+
+                                    </div>
+                                    <%--END LEFT PART--%> 	
+		                        </td>
+                        </tr>
+                              <tr>
+                                <td style="height: 105px">
+                                    <uc3:Footer_M ID="Footer_M1" runat="server" />
+                                 </td>
+                              </tr>
+                              <tr> </tr>
+                              <tr></tr>
+                    </tbody>
+            </table>
+        </div>
+</body>
+</html>
+
